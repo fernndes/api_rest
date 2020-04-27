@@ -41,7 +41,7 @@ export default class Aluno extends Model {
         defaultValue: '',
         validate: {
           isInt: {
-            msg: 'Idade precisa ser um npumeor inteiro',
+            msg: 'Idade precisa ser um numero inteiro',
           },
         },
       },
@@ -50,7 +50,7 @@ export default class Aluno extends Model {
         defaultValue: '',
         validate: {
           isFloat: {
-            msg: 'Peso precisa ser um número ineteiro ou de ponto flutuante',
+            msg: 'Peso precisa ser um número inteiro ou de ponto flutuante',
           },
         },
       },
@@ -59,7 +59,7 @@ export default class Aluno extends Model {
         defaultValue: '',
         validate: {
           isFloat: {
-            msg: 'Altura precisa ser um número ineteiro ou de ponto flutuante',
+            msg: 'Altura precisa ser um número inteiro ou de ponto flutuante',
           },
         },
       },
